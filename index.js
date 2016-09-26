@@ -1,5 +1,13 @@
 'use strict';
 
 const server = require('./server.js');
+const router = require('./router.js');
+var requestHandlers = require("./requestHandlers.js");
 
-server.start;
+var handle = {};
+
+handle["/"] = requestHandlers.start;
+handle["/"] = requestHandlers.start;
+handle["/upload"] = requestHandlers.upload;
+
+server.start(router.route, handle);
