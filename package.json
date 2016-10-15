@@ -20,5 +20,9 @@
   "homepage": "https://github.com/Raziyehbazargan/Node-beginner#readme",
   "dependencies": {
     "detect-newline-at-eof": "^0.1.0"
+  },
+  "devDependencies": {
+    "formidable": "^1.0.17",
+    "sys": "0.0.1"
   }
 }
