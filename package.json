@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Raziyehbazargan/Node-beginner/issues"
   },
-  "homepage": "https://github.com/Raziyehbazargan/Node-beginner#readme"
+  "homepage": "https://github.com/Raziyehbazargan/Node-beginner#readme",
+  "dependencies": {
+    "detect-newline-at-eof": "^0.1.0"
+  }
 }
